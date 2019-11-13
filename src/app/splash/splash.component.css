@@ -1,0 +1,19 @@
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+
+h2 {
+    color: #0574e9;
+}
+
+hr {
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.form-control {
+    width: 100px;
+    margin-left: 47%;
+}

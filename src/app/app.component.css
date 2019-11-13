@@ -1,0 +1,25 @@
+body {
+    background: url(../assets/brain.jpg);
+    background-size: 30% auto;
+    background-position: center;
+    color: white;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px;
+    text-shadow: 0px 4px 3px #007bff, 0px 8px 13px #007bff, 0px 18px 23px #007bff;
+    background-color: #ffffffbf;
+    opacity: 0.9;
+    color: blue;
+}
+
+.row {
+    margin: auto 0;
+}
+
+html {
+    height: 100%;
+}

@@ -1,0 +1,10 @@
+<h1>Memory Game</h1>
+<h2>Train Your Brains</h2>
+<hr>
+<div class="form-group">
+    <label for="sel1">Select Cards Count:</label>
+    <select (change)="appService.numberOfCards = $event.target.value" class="form-control" id="sel1">
+        <option *ngFor="let cat of cardsCategories">{{cat}}</option>
+    </select>
+</div>
+<button class="btn btn-primary btn-lg" (click)="openMemoGame()"><i class="fa fa-paw"></i> Start a Game</button>
